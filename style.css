@@ -47,13 +47,14 @@ button:hover {
 }
 /* Background image on body */
 body {
-    background-image: url('https://wallpapercave.com/wp/wp12434651.jpg');
-    background-size: cover;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/original-anime-girl-dream-girly-backgrounds-3840x2160-7721.png');
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
     font-family: Arial, sans-serif;
     color: #fff;
 }
