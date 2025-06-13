@@ -58,3 +58,28 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
+/* Input fields */
+input[type="text"],
+input[type="email"] {
+    width: 95%;
+    padding: 10px 12px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input focus style */
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Placeholder style */
+input::placeholder {
+    color: #999;
+    font-style: italic;
+}
